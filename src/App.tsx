@@ -10,6 +10,7 @@ import { Testimonials } from './components/Testimonials';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { RoofingSheets } from './components/RoofingSheets';
+import { QuoteModal } from './components/QuoteModal';
 
 export default function App() {
   const [quoteModalOpen, setQuoteModalOpen] = useState(false);
