@@ -1,0 +1,6 @@
+{
+  "name": "RJS Roofing & Construction",
+  "description": "Professional roofing solutions for residential buildings and industrial warehouses, featuring project gallery, estimate calculator, and inquiry form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
