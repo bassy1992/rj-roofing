@@ -5,7 +5,7 @@ interface RoofingSheetsProps {
   onOpenQuoteModal: () => void;
 }
 
-const TOTAL = 18;
+const TOTAL = 17;
 
 const sheets = Array.from({ length: TOTAL }, (_, i) => ({
   id: i + 1,
