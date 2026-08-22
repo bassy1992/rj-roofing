@@ -106,7 +106,7 @@ export const RoofVisualizer: React.FC<RoofVisualizerProps> = ({ onSelectColorFor
             <p className="text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-3 text-center sm:text-left">
               Step 1: Select Building Type
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 overflow-x-auto pb-1">
               {buildings.map((b) => {
                 const IconComponent = b.icon;
                 return (

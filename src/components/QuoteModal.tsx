@@ -31,8 +31,8 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, prefill
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
-      <div className="relative w-full max-w-lg bg-[#111827] border border-[#EAB308] p-6 sm:p-8 shadow-2xl my-8 text-white">
+    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-start sm:items-center justify-center p-3 sm:p-4 overflow-y-auto animate-in fade-in duration-200">
+      <div className="relative w-full max-w-lg bg-[#111827] border border-[#EAB308] p-5 sm:p-8 shadow-2xl mt-4 mb-4 text-white">
         
         {/* Close Button */}
         <button

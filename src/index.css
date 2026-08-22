@@ -1,44 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 480px;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
     background-color: #0A0A0B;
     color: #E5E7EB;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
-/* Custom Artistic Flair Theme Utilities */
-.text-stroke-amber {
-  -webkit-text-stroke: 1px #EAB308;
-  color: transparent;
-}
-
-.text-stroke-amber-lg {
-  -webkit-text-stroke: 1.5px #EAB308;
-  color: transparent;
-}
-
-.bg-artistic-card {
-  background-color: rgba(17, 24, 39, 0.85);
-  backdrop-filter: blur(12px);
-}
-
-/* Custom sleek dark scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0A0A0B;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #1F2937;
-  border-radius: 2px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #EAB308;
-}
-
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0A0A0B; }
+::-webkit-scrollbar-thumb { background: #1F2937; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #EAB308; }
