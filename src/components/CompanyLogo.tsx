@@ -13,22 +13,12 @@ export const CompanyLogo: React.FC<CompanyLogoProps> = ({
 }) => {
   if (variant === 'compact') {
     return (
-      <div className={`flex items-center gap-2 ${className}`}>
+      <div className={`flex items-center ${className}`}>
         <img
           src="/logo.jpeg"
           alt="RJS Roofing & Construction Ltd"
-          className="h-10 w-10 object-contain rounded"
+          className="h-12 w-auto object-contain"
         />
-        <div className="flex flex-col">
-          <div className="flex items-center gap-1">
-            <span className="text-lg font-black tracking-tight text-white uppercase font-sans">
-              RJS <span className="text-amber-500">ROOFING</span>
-            </span>
-          </div>
-          <span className="text-[10px] font-bold tracking-wider text-red-500 uppercase">
-            & Construction Ltd
-          </span>
-        </div>
       </div>
     );
   }

@@ -77,8 +77,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2">
-            <CompanyLogo variant="compact" />
+          <a href="#hero" className="flex items-center">
+            <img
+              src="/logo.jpeg"
+              alt="RJS Roofing & Construction Ltd"
+              className="h-14 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Nav Links */}
